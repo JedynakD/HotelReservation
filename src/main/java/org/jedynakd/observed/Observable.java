@@ -1,8 +1,7 @@
-package org.jedynakd;
+package org.jedynakd.observed;
 
-/**
- * Created by Damian on 2015-03-04.
- */
+import org.jedynakd.observers.person.Observer;
+
 public interface Observable {
     public void addObserver(Observer observer);
 

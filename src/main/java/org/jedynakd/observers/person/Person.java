@@ -1,11 +1,8 @@
-package org.jedynakd;
+package org.jedynakd.observers.person;
 
-/**
- * Created by Damian on 2015-03-04.
- */
 public class Person implements Observer {
-    int prize;
-    boolean isAvailable;
+    private int prize;
+    private boolean isAvailable;
 
     public void update(int prize, boolean isAvailable) {
         this.prize = prize;

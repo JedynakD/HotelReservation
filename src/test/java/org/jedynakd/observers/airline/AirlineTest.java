@@ -1,4 +1,4 @@
-package org.jedynakd;
+package org.jedynakd.observers.airline;
 
 import org.junit.Test;
 

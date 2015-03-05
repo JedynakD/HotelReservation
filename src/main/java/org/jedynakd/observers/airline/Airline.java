@@ -1,4 +1,6 @@
-package org.jedynakd;
+package org.jedynakd.observers.airline;
+
+import org.jedynakd.observers.person.Observer;
 
 public class Airline implements Observer {
    private  boolean isAvailable;

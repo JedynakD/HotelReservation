@@ -1,4 +1,4 @@
-package org.jedynakd;
+package org.jedynakd.observers.person;
 
 import org.junit.Test;
 

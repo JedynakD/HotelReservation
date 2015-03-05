@@ -1,5 +1,6 @@
-package org.jedynakd;
+package org.jedynakd.printer;
 
+import org.jedynakd.observers.airline.Airline;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

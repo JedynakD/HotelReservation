@@ -1,5 +1,6 @@
-package org.jedynakd;
+package org.jedynakd.observed;
 
+import org.jedynakd.observers.person.Person;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;

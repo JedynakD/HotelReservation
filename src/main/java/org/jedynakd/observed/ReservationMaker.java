@@ -1,11 +1,10 @@
-package org.jedynakd;
+package org.jedynakd.observed;
+
+import org.jedynakd.observers.person.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Damian on 2015-03-04.
- */
 public class ReservationMaker implements Observable {
     private List<Observer> observers;
     private int prize;
